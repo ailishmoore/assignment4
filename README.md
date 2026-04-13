@@ -32,7 +32,7 @@ Assignment_4/
 │   ├── T_cells_D08_vs_Naive.png              # Fig 8  — Volcano plots: T cells D08 vs Naive, all tissues
 │   ├── VlnPlot_TopDE_RM.png                  # Fig 9  — Violin plots: top upregulated DE genes, RM
 │   ├── VlnPlot_TopDE_LNG.png                 # Fig 10 — Violin plots: top upregulated DE genes, LNG
-│   ├── VlnPlot_Tcell_markers.png            # Fig 11 — Violin plots:  T cell subtype markers across conditions  
+│   ├── VlnPlot_Tcell_markers.png             # Fig 11 — Violin plots:  T cell subtype markers across conditions  
 │   ├── GSEA_GO_dotplot_RM.png                # Fig 12 — GO BP GSEA dotplot, RM
 │   ├── GSEA_Hallmark_dotplot_RM.png          # Fig 13 — Hallmark GSEA dotplot, RM
 │   ├── GSEA_GO_dotplot_OM.png                # Fig 14 — GO BP GSEA dotplot, OM
@@ -156,7 +156,7 @@ Pseudobulk DESeq2 analysis comparing D08 to naive T cells revealed strongly tiss
 ![Volcano Plot](figures/T_cells_D08_vs_Naive.png)
 **Figure 8.** Volcano plots of pseudobulk DESeq2 differential expression results for T cells at D08 vs naive, shown for all three tissues (RM, OM, LNG). Significant genes (adjusted p < 0.05, |log2FC| > 0.5) are highlighted in red. The RM displays the largest number of significantly upregulated genes; no significant upregulation was detected in the OM and only Gm42418 reached significance in the LNG.
 
-Violin plots of the top RM upregulated genes showed that while Gm42418, Cd3d, Nkg7, Lgals1, and Ms4a6b are broadly expressed across tissues and conditions, Ly6c2 stands out as more selectively elevated in RM_D08 and to a lesser degree OM_Naive, consistent with recruitment or expansion of Ly6c2-expressing effector T cells specifically in the rectal mucosa at day 8 (Figure 9). For the LNG, the strong upregulation of Gm42418 at D08 relative to the notably low naive baseline represents the clearest Naive-to-D08 transcriptional shift in that compartment (Figure 10). OM did not have any top upregulated T cell genes. 
+Violin plots of the top RM upregulated genes showed that while Gm42418, Cd3d, Nkg7, Lgals1, and Ms4a6b are broadly expressed across tissues and conditions, Ly6c2 stands out as more selectively elevated in RM_D08 and to a lesser degree OM_Naive, consistent with recruitment or expansion of Ly6c2-expressing effector T cells specifically in the respiratory mucosa at day 8 (Figure 9). For the LNG, the strong upregulation of Gm42418 at D08 relative to the notably low naive baseline represents the clearest Naive-to-D08 transcriptional shift in that compartment (Figure 10). OM did not have any top upregulated T cell genes. 
 ![Violin Plot](figures/VlnPlot_TopDE_RM.png)
 **Figure 9.** Violin plots of the top significantly upregulated genes in T cells at D08 vs naive in the RM (Gm42418, Ly6c2, Cd3d, Nkg7, Lgals1, Ms4a6b), shown across all six tissue-timepoint conditions. Expression is highest at RM D08, confirming tissue-specific induction.
 ![Violin Plot](figures/VlnPlot_TopDE_LNG.png)
